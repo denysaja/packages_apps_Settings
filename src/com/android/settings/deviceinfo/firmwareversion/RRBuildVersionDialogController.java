@@ -18,23 +18,17 @@ package com.android.settings.deviceinfo.firmwareversion;
 
 import android.content.Context;
 import android.os.SystemProperties;
-import android.text.format.DateFormat;
 
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.Locale;
-
-public class rrBuildVersionDialogController extends BasePreferenceController {
+public class RRBuildVersionDialogController extends BasePreferenceController {
 
     private static final String KEY_RR_BUILD_TYPE =
             "ro.rr.releasetype";
 
 
-    public rrBuildVersionDialogController(Context context, String key) {
+    public RRBuildVersionDialogController(Context context, String key) {
         super(context, key);
     }
 

@@ -193,16 +193,16 @@
         android:icon="@drawable/rr_build_info_icon"
         settings:controller="com.android.settings.deviceinfo.BuildNumberPreferenceController"/>
 
-    <!-- SIM status -->
+    <!-- RR Info -->
     <Preference
         android:key="rr_version"
         android:order="54"
         android:title="@string/rr_info_title"
         android:icon="@drawable/rr_main_conf_icon"
-        android:summary="@string/rr_info_summary"
-        settings:allowDividerAbove="true"/>
+        android:summary="@string/summary_placeholder"
+        settings:allowDividerAbove="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.RRVersionPreferenceController"/>
 
-    <!-- SIM status -->
     <Preference
         android:key="rr_maintainer"
         android:order="55"

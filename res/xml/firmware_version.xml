@@ -52,7 +52,7 @@
         android:icon="@drawable/rr_build_info_icon"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.rrBuildVersionDialogController"/>
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.RRBuildVersionDialogController"/>
 
     <!-- Security patch -->
     <Preference
